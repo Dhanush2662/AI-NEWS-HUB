@@ -5,8 +5,8 @@ from datetime import datetime
 from typing import Dict, Any
 
 # importing crew module (ensure this path is correct for your project)
-# Make sure 'trigger_crew.py' is accessible or adjust the import path
-from trigger_crew import fact_check_crew 
+# Make sure 'trigger_crew_simple.py' is accessible or adjust the import path
+from trigger_crew_simple import fact_check_crew 
 
 # Configure page settings
 st.set_page_config(
